@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class TheaterKiosk {
+    public static void main(String[] args) {
+        // Use Scanner to read the input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user to enter their age
+        System.out.print("Please enter your age: ");
+        int age = scanner.nextInt();
+
+        // Check if the user age is 21 or older
+        if (age >= 21) {
+            System.out.println("You get a wrist band.");
+        }
+
+        scanner.close();
+    }
+}
